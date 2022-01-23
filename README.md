@@ -45,4 +45,5 @@
              {"results":null,"error":"Error while parsing the second number"}
 8. Swagger UI - http://localhost:8080/swagger-ui.html
 9. Start application - Run the java class - MerchantApiApplication
-10. H2 database path -> ~/merchantDB. Please delete this directory if you want to make empty db
+10. H2 database path -> ~/merchantDB. Please delete this directory if you want to make empty db.
+11. Integration test cases are running with in memory H2 db
