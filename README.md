@@ -44,3 +44,5 @@
        e.Invalid number - curl -X POST --header "Content-Type: application/json" -d '{"raw_phone_numbers": "(Cell) 415-123-4567a (Home)415-415-4155a"}' http://localhost:8080/phone-numbers
              {"results":null,"error":"Error while parsing the second number"}
 8. Swagger UI - http://localhost:8080/swagger-ui.html
+9. Start application - Run the java class - MerchantApiApplication
+10. H2 database path -> ~/merchantDB. Please delete this directory if you want to make empty db
